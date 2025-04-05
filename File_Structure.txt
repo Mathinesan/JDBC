@@ -1,0 +1,18 @@
+jdbc-demo/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           └── jdbcdemo/
+│       │               ├── JdbcDemoApplication.java         # Main app
+│       │               ├── controller/
+│       │               │   └── UserController.java           # REST controller
+│       │               ├── model/
+│       │               │   └── User.java                     # User model
+│       │               └── repository/
+│       │                   └── UserRepository.java           # JDBC logic
+│       └── resources/
+│           ├── application.properties                        # DB config
+│           └── schema.sql (optional)                         # SQL schema
+├── pom.xml                                                   # Maven dependencies
